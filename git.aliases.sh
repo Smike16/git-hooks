@@ -19,7 +19,7 @@ alias gun='git reset HEAD --'
 # [Git] Merge
 alias gm='git merge'
 alias gma='git merge --abort'
-alias gmom='git merge origin/master'
+alias gmm='git merge origin/master'
 
 # [Git] Rebase
 alias grb='git rebase'
