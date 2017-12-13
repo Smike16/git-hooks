@@ -1,7 +1,7 @@
-# Git
+# [Git]
 alias g='git'
 
-# Common
+# [Git] Common
 alias ga='git add'
 alias gs='git status'
 alias gb='git branch'
@@ -15,16 +15,16 @@ alias gup='git pull --rebase'
 alias gl='git log'
 alias gun='git reset HEAD --'
 
-# Merge
+# [Git] Merge
 alias gm='git merge'
 alias gma='git merge --abort'
 alias gmom='git merge origin/master'
 
-# Rebase
+# [Git] Rebase
 alias grb='git rebase'
 alias grba='git rebase --abort'
 alias grbc='git rebase --continue'
 
-# Stash
+# [Git] Stash
 alias gst='git stash'
 alias gstp='git stash pop'

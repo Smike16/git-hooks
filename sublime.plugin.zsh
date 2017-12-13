@@ -1,4 +1,4 @@
-# Sublime Text
+# [Sublime Text]
 find_project()
 {
     local PROJECT_ROOT="${PWD}"
