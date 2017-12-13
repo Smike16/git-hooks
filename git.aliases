@@ -1,0 +1,15 @@
+# Git
+alias g='git'
+
+alias ga='git add'
+alias gs='git status'
+alias gb='git branch'
+alias gc='git commit -m'
+alias gd='git diff'
+alias gcb='git checkout -b'
+alias go='git checkout'
+alias gcp='git cherry-pick'
+alias gm='git merge'
+alias gp='git push origin'
+alias gpl='git pull'
+alias gl='git log'
