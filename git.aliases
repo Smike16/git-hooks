@@ -1,15 +1,30 @@
 # Git
 alias g='git'
 
+# Common
 alias ga='git add'
 alias gs='git status'
 alias gb='git branch'
 alias gc='git commit -m'
 alias gd='git diff'
-alias gcb='git checkout -b'
+alias gob='git checkout -b'
 alias go='git checkout'
 alias gcp='git cherry-pick'
-alias gm='git merge'
 alias gp='git push origin'
-alias gpl='git pull'
-alias gl='git log'
+alias gl='git pull'
+alias gup='git pull --rebase'
+alias glg='git log'
+
+# Merge
+alias gm='git merge'
+alias gma='git merge --abort'
+alias gmom='git merge origin/master'
+
+# Rebase
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+
+# Stash
+alias gst='git stash'
+alias gstp='git stash pop'
